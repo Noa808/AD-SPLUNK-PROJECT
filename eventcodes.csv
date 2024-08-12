@@ -9,7 +9,7 @@ EventCode,EventDesc
 4609,is shutting down
 4610,An authentication package has been loaded by the Local Security Authority
 4611,A trusted logon process has been registered with the Local Security Authority
-4612,Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits
+4612,Internal resources allocated for the queuing of audit messages have been exhausted leading to the loss of some audits
 4614,A notification package has been loaded by the Security Account Manager
 4615,Invalid use of LPC port
 4616,The system time was changed

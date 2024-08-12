@@ -166,7 +166,7 @@ EventCode,EventDesc
 4818,Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy
 4819,Central Access Policies on the machine have been changed
 4820,A Kerberos Ticket-granting-ticket (TGT) was denied because the device does not meet the access control restrictions
-4821,A Kerberos service ticket was denied because the user, device, or both does not meet the access control restrictions
+4821,A Kerberos service ticket was denied because the user device or both does not meet the access control restrictions
 4822,NTLM authentication failed because the account was a member of the Protected User group
 4823,NTLM authentication failed because access control restrictions are required
 4824,Kerberos preauthentication by using DES or RC4 failed because the account was a member of the Protected User group

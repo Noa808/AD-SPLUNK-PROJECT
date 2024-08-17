@@ -14,8 +14,5 @@ sc config SplunkForwarder start= auto
 REM Configure the forwarder to send data to the receiving indexer
 "%INSTALL_DIR%\bin\splunk.exe" add forward-server %SPLUNK_INDEXER% -auth splunkadmin:splunkadmin
 
-REM Copy the inputs.conf file to the local Splunk configuration directory
-copy \\MGMT\Deployment\Config\inputs.conf "%INSTALL_DIR%\etc\system\local\" /Y
-
 REM Start the Splunk Universal Forwarder service
 net start SplunkForwarder
